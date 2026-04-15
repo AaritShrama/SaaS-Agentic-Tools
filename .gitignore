@@ -1,0 +1,19 @@
+# --- Sensitive Information ---
+# This prevents your API keys (like GROQ) and email credentials from leaking
+.env
+
+# --- Project Data & Outputs ---
+# Prevents all those PDFs you showed in 'git status' from being uploaded
+output/
+*.pdf
+data.csv
+
+# --- Python Environment ---
+# Keeps your local environment and cache out of the repo
+myenv/
+__pycache__/
+*.py[cod]
+
+# --- OS Specific Files ---
+.DS_Store
+Thumbs.db
